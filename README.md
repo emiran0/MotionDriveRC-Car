@@ -1,3 +1,5 @@
+![](media/MotionDriveRC_logo.png)
+
 # MotionDriveRC-Car
 
 **MotionDriveRC-Car** is the receiver-side module of a wearable gesture-controlled RC system. It receives real-time tilt data from the glove module and translates it into steering and throttle commands for a dual-motor RC car using an ESP32, motor driver, and servo setup.
