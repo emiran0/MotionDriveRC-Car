@@ -55,11 +55,11 @@ int servoPin = 18;
 // Steering Boost Function
 void SteeringBoost(uint8_t angle)
 {
-  if (angle > 135)
+  if (angle > 130)
   {
     steerLeftBoost = 0.6;
   }
-  else if (angle < 45)
+  else if (angle < 50)
   {
     steerRightBoost = 0.6;
   }
